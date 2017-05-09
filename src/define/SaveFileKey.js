@@ -1,0 +1,3 @@
+var SAVE_FILE_KEY = {
+    SCORE_ARRAY_KEY:"SCORE_ARRAY_KEY",
+}

@@ -1,0 +1,47 @@
+{
+    "project_type": "javascript",
+
+    "debugMode" : 1,
+    "showFPS" : true,
+    "frameRate" : 60,
+    "noCache" : false,
+    "id" : "gameCanvas",
+    "renderMode" : 0,
+    "engineDir":"frameworks/cocos2d-html5",
+
+    "modules" : ["cocos2d"],
+
+    "jsList" : [
+        "src/resource.js",
+        "src/app.js",
+
+        "src/define/AppConstant.js",
+        "src/define/ModelKey.js",
+        "src/define/SaveFileKey.js",
+
+        "src/scenes/HomePageScene.js",
+        "src/scenes/SelectLevelScene.js",
+        "src/scenes/BlockGameBoardScene.js",
+        "src/scenes/LeaderboardScene.js",
+
+        "src/object/Block.js",
+        "src/object/BasicBlock.js",
+        "src/object/GameBoard.js",
+        "src/object/Pannel.js",
+        "src/object/CalculateLayer.js",
+        "src/object/TableView.js",
+
+        "src/tools/ChangeScene.js",
+        "src/tools/xsg_ButtonActor.js",
+        "src/tools/xsg_NumberActor.js",
+        "src/tools/xsg_NumberCounterActor.js",
+        "src/tools/xsg_ScrollBar.js",
+        "src/tools/xsg_SwitchButton.js",
+        "src/tools/xsg_SaveFileMgr.js",
+        "src/tools/xsg_LabelButton.js",
+        "src/tools/ActionTools.js",
+        "src/tools/BlockMoveManager.js",
+        "src/tools/ModelMgr.js",
+        "src/tools/Linklist.js"
+    ]
+}

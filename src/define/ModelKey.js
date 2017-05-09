@@ -1,0 +1,4 @@
+
+var BLOCK_GAME_MODEL_KEY = {
+    GAME_LEVEL:"GAME_LEVEL"
+};
