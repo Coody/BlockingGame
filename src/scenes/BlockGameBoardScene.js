@@ -1,9 +1,10 @@
 var BlockGameBoardLayer = cc.LayerColor.extend({
     ctor:function(){
         this._super( D_COLOR_GREEN );
+
         var blockNumber = ModelMgr.getInstance().getModel( BLOCK_GAME_MODEL_KEY.GAME_LEVEL );
-        var test = new GameBoard( blockNumber );
-        this.addChild(test);
+        var gameBoard = new GameBoard( blockNumber );
+        this.addChild(gameBoard);
 
         return true;
     }
